@@ -24,9 +24,13 @@ Both programs:
 
 ## How to Run
 1. Install Python 3. Part 1 also requires the pandas library.
-2. Download and keep both Python files and the CSV file in the same folder.
-3. Open the project folder in Visual Studio Code and run either Python file.
-4. Enter the amount, the currency to convert from, and the currency to convert to when prompted.
+2. Download and extract the GitHub repository, keeping both Python files and the CSV file in the same folder.
+3. Open the project folder containing the Python files and BankOfCanadaExchangeRate.2026.csv in Visual Studio Code.
+4. Open a terminal in the project folder and run either program:
+Part 1: python Part-1-ExchangeRate.py
+Part 2: python ExchangeRatesAI.py
+5. Enter the amount, the currency to convert from, and the currency to convert to when prompted.
+Note: Run the programs from the folder containing the CSV file so that the exchange rate data can be located correctly particularly for Part-1.
 
 ## Example Results
 Using the latest available exchange rate in the dataset (1 USD = 1.3978 CAD):
